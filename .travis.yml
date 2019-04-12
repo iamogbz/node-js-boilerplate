@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - '10'
 script:
-  - commitlint
-  - test
-  - build
+  - npm run commitlint
+  - npm run test
+  - npm run build
 # deploy:
 #   - release
 #   on:
