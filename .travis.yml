@@ -3,12 +3,12 @@ node_js:
   - '10'
 jobs:
   include:
-    - stage: 'Lint, Test and Build'
-      name: 'Commitlint'
+    - stage: lint, test and build
+      name: 'commitlint'
       script: npm run commitlint
-    - name: 'Test'
+    - name: test
       script: npm run test
-    - name: 'Build'
+    - name: build
       script: npm run build
     - stage: deploy
       script: npm run release
