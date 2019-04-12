@@ -2,4 +2,10 @@ language: node_js
 node_js:
   - '10'
 script:
-  - commitlint-travis
+  - commitlint
+  - test
+  - build
+# deploy:
+#   - release
+#   on:
+#     branch: master

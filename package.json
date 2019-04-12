@@ -4,9 +4,11 @@
     "description": "NodeJS Boilerplate with precommit test and linting configured",
     "main": "index.js",
     "scripts": {
+        "commit": "git-cz",
+        "commitlint": "commitlint-travis",
         "build": "webpack",
         "test": "jest",
-        "commit": "git-cz"
+        "release": "semantic-release"
     },
     "jest": {
         "testPathIgnorePatterns": [
