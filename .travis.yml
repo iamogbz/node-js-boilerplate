@@ -9,7 +9,7 @@ jobs:
     - name: test
       script:
         - npm run test
-        # - npm run coveralls
+        - npm run coveralls
     - name: build
       script: npm run build
     - stage: deploy
