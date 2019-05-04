@@ -9,7 +9,7 @@
         "build-watch": "webpack --mode=development  --watch",
         "test": "jest --coverage",
         "test-watch": "jest --watch",
-        "coveralls": "coveralls ./artifacts/coverage/lcov.info",
+        "coveralls": "cat ./artifacts/coverage/lcov.info | coveralls",
         "commit": "git-cz",
         "release": "semantic-release"
     },
