@@ -5,8 +5,11 @@
     "main": "index.js",
     "scripts": {
         "commitlint": "commitlint-travis",
-        "build": "webpack",
-        "test": "jest",
+        "build": "webpack --mode=production",
+        "build-watch": "webpack --mode=development  --watch",
+        "test": "jest --coverage",
+        "test-watch": "jest --watch",
+        "coveralls": "coveralls ./artifacts/coverage/lcov.info",
         "commit": "git-cz",
         "release": "semantic-release"
     },
@@ -89,6 +92,7 @@
         "babel-loader": "^8.0.5",
         "babel-plugin-transform-class-properties": "^6.24.1",
         "commitizen": "^3.0.7",
+        "coveralls": "^3.0.3",
         "cz-conventional-changelog": "^2.1.0",
         "eslint": "^5.16.0",
         "eslint-config-airbnb": "^17.1.0",
