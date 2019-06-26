@@ -28,11 +28,11 @@
     },
     "main": "index.js",
     "scripts": {
+        "lint": "eslint",
         "commitlint": "commitlint-travis",
         "build": "webpack --mode=production",
-        "build-watch": "webpack --mode=development  --watch",
+        "build-watch": "webpack --mode=development --watch",
         "test": "jest",
-        "test-watch": "jest --watch",
         "coveralls": "cat ./artifacts/coverage/lcov.info | coveralls",
         "commit": "git-cz",
         "release": "semantic-release"
@@ -66,8 +66,8 @@
     "lint-staged": {
         "linters": {
             "*.js": [
-                "eslint",
-                "jest --bail --findRelatedTests"
+                "npm lint",
+                "npm test -- --bail --findRelatedTests"
             ]
         },
         "ignore": [
