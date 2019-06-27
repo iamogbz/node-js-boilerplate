@@ -14,7 +14,7 @@ typescript:
 	@git fetch --all --prune
 	@git pull upstream master
 	@git checkout -b typescript-conversion
-	@git pull upstream typescript-conversion
+	@git pull upstream typescript-conversion --allow-unrelated-histories --squash -m 'chore: make typescript'
 
 ifndef VERBOSE
 .SILENT:
