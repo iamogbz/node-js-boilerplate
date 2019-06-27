@@ -15,6 +15,8 @@ typescript:
 	@git fetch --all --prune
 	@git checkout -b typescript-conversion
 	@git pull upstream typescript-conversion --rebase -Xours
+	@git reset master --soft && git add --all && git commit -m "chore: typescript"
+	@echo "typescript: branch created, merge to master to complete coversion"
 
 ifndef VERBOSE
 .SILENT:
