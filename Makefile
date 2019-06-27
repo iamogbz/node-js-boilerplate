@@ -10,7 +10,7 @@ eject:
 	@git checkout -b boilerplate-ejection
 	@git pull upstream boilerplate-ejection
 
-typescript: upstream
+typescript:
 	@git fetch --all --prune
 	@git pull upstream master
 	@git checkout -b typescript-conversion
