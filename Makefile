@@ -15,7 +15,8 @@ eject:
 typescript:
 	@git fetch --all --prune
 	@git checkout -b typescript-conversion
-	@git pull upstream typescript-conversion --rebase -Xours
+	@git pull upstream master --allow-unrelated-histories --no-edit -Xours
+	@git pull upstream typescript-conversion --no-edit -Xours
 	@git reset master --soft && git add --all && git commit -m "chore: typescript"
 	@echo "typescript: branch created, merge to master to complete coversion"
 
