@@ -64,14 +64,9 @@
         }
     },
     "lint-staged": {
-        "linters": {
-            "*.js": [
-                "npm lint",
-                "npm test -- --bail --findRelatedTests"
-            ]
-        },
-        "ignore": [
-            "**/lib/*"
+        "*.js": [
+            "npm run lint",
+            "npm test -- --bail --findRelatedTests"
         ]
     },
     "husky": {
