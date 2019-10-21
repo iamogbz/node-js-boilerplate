@@ -84,7 +84,7 @@
         "@commitlint/travis-cli": "^8.0.0",
         "acorn": "^7.0.0",
         "babel-eslint": "^10.0.3",
-        "babel-loader": "^8.0.5",
+        "babel-loader": "^8.0.6",
         "babel-plugin-transform-class-properties": "^6.24.1",
         "commitizen": "^4.0.3",
         "coveralls": "^3.0.3",
