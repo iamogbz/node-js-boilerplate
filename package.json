@@ -99,7 +99,7 @@
         "husky": "^3.0.0",
         "jest": "^24.1.0",
         "lint-staged": "^9.4.2",
-        "prettier": "^1.16.4",
+        "prettier": "^1.19.1",
         "rxjs": "^6.4.0",
         "semantic-release": "^15.13.31",
         "stylelint": "^11.0.0",
