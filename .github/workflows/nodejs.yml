@@ -1,0 +1,39 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install
+      run: |
+        npm install
+    - name: Lint
+      run: |
+        npm run lint
+    - name: Test
+      env:
+        CI: true
+        COVERALLS_REPO_TOKEN: RES5WP6yvwq6toyGkmAErggksdbQN3Hls
+      run: |
+        npm test -- --ci --coverage
+        npm run coveralls
+    - name: Build
+      run: |
+        npm run build
+    - name: Deploy
+      if: matrix.node-version == '12.x' && github.ref == 'refs/heads/master'
+      run: |
+        npm run release

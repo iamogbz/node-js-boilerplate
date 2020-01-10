@@ -30,7 +30,6 @@
     "main": "index.js",
     "scripts": {
         "lint": "eslint . --ext .js,.ts",
-        "commitlint": "commitlint-travis",
         "build": "webpack --mode=production",
         "build-watch": "webpack --mode=development --watch",
         "test": "jest",
