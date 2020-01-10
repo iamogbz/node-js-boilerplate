@@ -24,6 +24,9 @@ jobs:
       run: |
         npm run lint
     - name: Test
+      env:
+        CI: true
+        COVERALLS_REPO_TOKEN: RES5WP6yvwq6toyGkmAErggksdbQN3Hls
       run: |
         npm test -- --ci --coverage
         npm run coveralls
