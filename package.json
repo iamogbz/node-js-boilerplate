@@ -27,11 +27,13 @@
         "node": ">=8",
         "npm": ">=6"
     },
-    "main": "index.js",
+    "main": "lib/main.js",
+    "types": "lib/main.d.ts",
     "scripts": {
         "lint": "eslint . --ext .js,.ts",
         "build": "webpack --mode=production",
         "build-watch": "webpack --mode=development --watch",
+        "build-types": "tsc --declaration --emitDeclarationOnly",
         "test": "jest",
         "coveralls": "cat ./artifacts/coverage/lcov.info | coveralls",
         "typecheck": "tsc --noEmit",
