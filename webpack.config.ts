@@ -30,7 +30,7 @@ const configuration: Configuration = {
         new CopyPlugin(["package.json", "README.md"]),
     ],
     resolve: {
-        extensions: [".js", ".ts"],
+        extensions: [".js", ".ts", ".jsx", ".tsx"],
         modules: [path.resolve("./src"), path.resolve("./node_modules")],
     },
 };
