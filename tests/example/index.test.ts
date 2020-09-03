@@ -1,6 +1,6 @@
-import { helloWorld } from "src/index";
+import helloWorld from "src/example";
 
-describe("entry", (): void => {
+describe("example", (): void => {
     it("runs a test", (): void => {
         expect(helloWorld()).toMatchSnapshot();
     });

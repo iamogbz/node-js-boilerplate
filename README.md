@@ -18,5 +18,5 @@ npm run commit    # run commitizen
 ```
 
 ```sh
-npm run build     # webpack build
+npm run build     # typescript build
 ```
