@@ -1,7 +1,8 @@
 .circleci/
 artifacts/
-internals/
-server/
+dist/
 docs/
-node_modules/
+internals/
 lib/
+node_modules/
+server/
