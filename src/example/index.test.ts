@@ -1,4 +1,4 @@
-import helloWorld from "src/example";
+import helloWorld from ".";
 
 describe("example", (): void => {
     it("runs a test", (): void => {

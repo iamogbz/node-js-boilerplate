@@ -1,4 +1,4 @@
-import { helloWorld } from "src/index";
+import { helloWorld } from ".";
 
 describe("entry", (): void => {
     it("runs a test", (): void => {
