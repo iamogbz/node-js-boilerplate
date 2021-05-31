@@ -37,7 +37,6 @@
         "build": "rm -rf ./dist && tsc --project tsconfig.prod.json",
         "build-watch": "tsc --watch",
         "test": "jest",
-        "coveralls": "cat ./artifacts/coverage/lcov.info | coveralls",
         "typecheck": "tsc --noEmit",
         "commit": "git-cz",
         "release": "semantic-release"
@@ -76,8 +75,8 @@
     },
     "lint-staged": {
         "*.{js,ts}": [
-            "npm run lint",
-            "npm test -- --bail --findRelatedTests"
+            "yarn run lint",
+            "yarn test -- --bail --findRelatedTests"
         ]
     },
     "devDependencies": {
@@ -90,7 +89,6 @@
         "@typescript-eslint/parser": "^4.25.0",
         "acorn": "^8.2.4",
         "commitizen": "^4.2.4",
-        "coveralls": "^3.1.0",
         "cz-conventional-changelog": "^3.3.0",
         "eslint": "^7.27.0",
         "eslint-config-airbnb": "^18.2.1",
