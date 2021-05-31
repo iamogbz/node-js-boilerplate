@@ -10,13 +10,13 @@ Simple node js package with linting, testing and building preconfigured
 ## Shell Commands
 
 ```sh
-npm run test      # run jest tests
+yarn test      # run jest tests
 ```
 
 ```sh
-npm run commit    # run commitizen
+yarn commit    # run commitizen
 ```
 
 ```sh
-npm run build     # typescript build
+yarn build     # typescript build
 ```
