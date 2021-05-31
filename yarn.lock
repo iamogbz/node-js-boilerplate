@@ -2286,7 +2286,6 @@ __metadata:
     "@typescript-eslint/parser": ^4.25.0
     acorn: ^8.2.4
     commitizen: ^4.2.4
-    coveralls: ^3.1.0
     cz-conventional-changelog: ^3.3.0
     eslint: ^7.27.0
     eslint-config-airbnb: ^18.2.1
@@ -2955,21 +2954,6 @@ __metadata:
     path-type: ^4.0.0
     yaml: ^1.10.0
   checksum: 6801feaa0249e9b9fdde5b3d70dc33b4f9c69095bec94d67e3fe08b66eac24dc7e2099f053597cfbc94b743de269aa5d2cfa7da3fde765433423b06bd122941a
-  languageName: node
-  linkType: hard
-
-"coveralls@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "coveralls@npm:3.1.0"
-  dependencies:
-    js-yaml: ^3.13.1
-    lcov-parse: ^1.0.0
-    log-driver: ^1.2.7
-    minimist: ^1.2.5
-    request: ^2.88.2
-  bin:
-    coveralls: ./bin/coveralls.js
-  checksum: eaabe50a5d20638739a95f1cca1ebd452404e6d7f97ffc1d42dd8cfa637af8d56dd15ef5659b40725fc5bab42d358495a06266569be41b9e994959568681ac9d
   languageName: node
   linkType: hard
 
@@ -6007,15 +5991,6 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"lcov-parse@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "lcov-parse@npm:1.0.0"
-  bin:
-    lcov-parse: ./bin/cli.js
-  checksum: d4b14b5e33d8f7511dc62dea49252a79f04720aa837ce120235451c43653e8aeb7e330588691f2d584826c5ac8145a0aa778dd02f543cd71270f80374e5fcf20
-  languageName: node
-  linkType: hard
-
 "leven@npm:^3.1.0":
   version: 3.1.0
   resolution: "leven@npm:3.1.0"
@@ -6345,13 +6320,6 @@ fsevents@^2.3.2:
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
-  languageName: node
-  linkType: hard
-
-"log-driver@npm:^1.2.7":
-  version: 1.2.7
-  resolution: "log-driver@npm:1.2.7"
-  checksum: 14949119f830d897f52a0f83b058d8af3d13b9d21deedcc341c65c523091d4f95b0c151798b0bb988ed2712f487d9d44c302cd95b177708a80ac8e47a6a28a16
   languageName: node
   linkType: hard
 

@@ -44,7 +44,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:4.25.0"],
             ["acorn", "npm:8.2.4"],
             ["commitizen", "npm:4.2.4"],
-            ["coveralls", "npm:3.1.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["eslint", "npm:7.27.0"],
             ["eslint-config-airbnb", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:18.2.1"],
@@ -3167,7 +3166,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:4.25.0"],
             ["acorn", "npm:8.2.4"],
             ["commitizen", "npm:4.2.4"],
-            ["coveralls", "npm:3.1.0"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["eslint", "npm:7.27.0"],
             ["eslint-config-airbnb", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:18.2.1"],
@@ -3913,20 +3911,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["parse-json", "npm:5.2.0"],
             ["path-type", "npm:4.0.0"],
             ["yaml", "npm:1.10.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["coveralls", [
-        ["npm:3.1.0", {
-          "packageLocation": "../../../../.yarn/berry/cache/coveralls-npm-3.1.0-598f5463a9-8.zip/node_modules/coveralls/",
-          "packageDependencies": [
-            ["coveralls", "npm:3.1.0"],
-            ["js-yaml", "npm:3.14.1"],
-            ["lcov-parse", "npm:1.0.0"],
-            ["log-driver", "npm:1.2.7"],
-            ["minimist", "npm:1.2.5"],
-            ["request", "npm:2.88.2"]
           ],
           "linkType": "HARD",
         }]
@@ -7440,15 +7424,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["lcov-parse", [
-        ["npm:1.0.0", {
-          "packageLocation": "../../../../.yarn/berry/cache/lcov-parse-npm-1.0.0-c94e390b1c-8.zip/node_modules/lcov-parse/",
-          "packageDependencies": [
-            ["lcov-parse", "npm:1.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["leven", [
         ["npm:3.1.0", {
           "packageLocation": "../../../../.yarn/berry/cache/leven-npm-3.1.0-b7697736a3-8.zip/node_modules/leven/",
@@ -7827,15 +7802,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../.yarn/berry/cache/lodash.uniqby-npm-4.7.0-8d0bd68e95-8.zip/node_modules/lodash.uniqby/",
           "packageDependencies": [
             ["lodash.uniqby", "npm:4.7.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["log-driver", [
-        ["npm:1.2.7", {
-          "packageLocation": "../../../../.yarn/berry/cache/log-driver-npm-1.2.7-1d1901a631-8.zip/node_modules/log-driver/",
-          "packageDependencies": [
-            ["log-driver", "npm:1.2.7"]
           ],
           "linkType": "HARD",
         }]
