@@ -5,7 +5,10 @@
     "onboarding": false,
     "packageRules": [
         {
-            "automerge": true
+            "automerge": true,
+            "matchBaseBranches": [
+                "main"
+            ]
         }
     ],
     "repositories": [
