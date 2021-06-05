@@ -1,4 +1,4 @@
-name: Rebase
+name: Ejection
 
 on:
   push:
