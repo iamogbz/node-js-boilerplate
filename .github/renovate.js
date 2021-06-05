@@ -1,11 +1,12 @@
 module.exports = {
     extends: ["config:base"],
-    repositories: [
-        'iamogbz/node-js-boilerplate'
-    ],
+    onboarding: false,
     packageRules: [
         {
             automerge: true,
         },
+    ],
+    repositories: [
+        'iamogbz/node-js-boilerplate'
     ],
 };
