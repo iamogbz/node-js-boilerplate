@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:15.6.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:4.25.0"],
             ["@typescript-eslint/parser", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:4.25.0"],
-            ["acorn", "npm:8.2.4"],
+            ["acorn", "npm:8.3.0"],
             ["commitizen", "npm:4.2.4"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["eslint", "npm:7.27.0"],
@@ -2497,10 +2497,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:8.2.4", {
-          "packageLocation": "../../../../.yarn/berry/cache/acorn-npm-8.2.4-4dfdb01127-8.zip/node_modules/acorn/",
+        ["npm:8.3.0", {
+          "packageLocation": "../../../../.yarn/berry/cache/acorn-npm-8.3.0-cf97a23822-8.zip/node_modules/acorn/",
           "packageDependencies": [
-            ["acorn", "npm:8.2.4"]
+            ["acorn", "npm:8.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3164,7 +3164,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:15.6.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:4.25.0"],
             ["@typescript-eslint/parser", "virtual:bcccfbc3736221125a9ec5ea8038c3024d2c5e5c85bcc354af7db3965dc0db3eff548b6eb0f3594f3becb64e74eb1f7e8eda79bcf9a52e7a6a35e9ed22be44ee#npm:4.25.0"],
-            ["acorn", "npm:8.2.4"],
+            ["acorn", "npm:8.3.0"],
             ["commitizen", "npm:4.2.4"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["eslint", "npm:7.27.0"],
@@ -3233,7 +3233,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../.yarn/berry/cache/browserslist-npm-4.16.6-a20cef1ca7-8.zip/node_modules/browserslist/",
           "packageDependencies": [
             ["browserslist", "npm:4.16.6"],
-            ["caniuse-lite", "npm:1.0.30001230"],
+            ["caniuse-lite", "npm:1.0.30001231"],
             ["colorette", "npm:1.2.2"],
             ["electron-to-chromium", "npm:1.3.742"],
             ["escalade", "npm:3.1.1"],
@@ -3373,10 +3373,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["caniuse-lite", [
-        ["npm:1.0.30001230", {
-          "packageLocation": "../../../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001230-a22215fb53-8.zip/node_modules/caniuse-lite/",
+        ["npm:1.0.30001231", {
+          "packageLocation": "../../../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001231-fa1df486bc-8.zip/node_modules/caniuse-lite/",
           "packageDependencies": [
-            ["caniuse-lite", "npm:1.0.30001230"]
+            ["caniuse-lite", "npm:1.0.30001231"]
           ],
           "linkType": "HARD",
         }]
@@ -7185,7 +7185,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsdom", "virtual:cf9425c76e2475783f68a1c89e1c5ccedac641213d48bb64a9a4218b53e64288435ef83646c7ac87ef4e4b74eb5bc26c4dcb983406b2061bb6234f588ab6f6a5#npm:16.6.0"],
             ["@types/canvas", null],
             ["abab", "npm:2.0.5"],
-            ["acorn", "npm:8.2.4"],
+            ["acorn", "npm:8.3.0"],
             ["acorn-globals", "npm:6.0.0"],
             ["canvas", null],
             ["cssom", "npm:0.4.4"],
