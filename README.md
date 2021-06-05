@@ -1,10 +1,10 @@
-# NodeJS Boilerplate
+# Project Name
 
-[![Dependencies](https://img.shields.io/librariesio/github/iamogbz/node-js-boilerplate)](https://libraries.io/github/iamogbz/node-js-boilerplate)
-[![Build Status](https://github.com/iamogbz/node-js-boilerplate/workflows/Build/badge.svg)](https://github.com/iamogbz/node-js-boilerplate/actions)
-[![Coverage Status](https://coveralls.io/repos/github/iamogbz/node-js-boilerplate/badge.svg?branch=main)](https://coveralls.io/github/iamogbz/node-js-boilerplate?branch=main)
+[![Dependencies](https://img.shields.io/librariesio/github/project-owner/project-name)](https://libraries.io/github/project-owner/project-name)
+[![Build Status](https://github.com/project-owner/project-name/workflows/Build/badge.svg)](https://github.com/project-owner/project-name/actions)
+[![Coverage Status](https://coveralls.io/repos/github/project-owner/project-name/badge.svg?branch=main)](https://coveralls.io/github/project-owner/project-name?branch=main)
 
-Simple node js package with linting, testing and building preconfigured
+Project description
 
 ## Shell Commands
 
