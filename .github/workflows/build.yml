@@ -25,8 +25,7 @@ jobs:
       run: yarn lint
     - name: Test
       run: yarn test --ci --coverage
-    - name: Report
-      uses: coverallsapp/github-action@v1.0
+    - uses: coverallsapp/github-action@v1.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         path-to-lcov: ./artifacts/coverage/lcov.info
