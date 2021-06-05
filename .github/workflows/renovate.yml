@@ -1,9 +1,10 @@
 name: Renovate
 
 on:
-  workflow_dispatch:
+  check_suite:
   schedule:
     - cron: "0/15 * * * *"
+  workflow_dispatch:
 
 jobs:
   renovate:
