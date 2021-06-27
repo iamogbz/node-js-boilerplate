@@ -78,7 +78,7 @@
     "lint-staged": {
         "*.{js,ts}": [
             "pnpm run lint",
-            "pnpm test --bail --findRelatedTests"
+            "pnpm test -- --bail --findRelatedTests"
         ]
     },
     "devDependencies": {
