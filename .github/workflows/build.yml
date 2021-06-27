@@ -11,23 +11,24 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x, 16.x]
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+    - uses: pnpm/action-setup@v2.0.1
     - name: Debug
       run: cat $GITHUB_EVENT_PATH
     - name: Install
-      run: yarn install
+      run: pnpm install
     - name: Lint
-      run: yarn lint
+      run: pnpm lint
     - name: Test
-      run: yarn test --ci --coverage
+      run: pnpm test --ci --coverage
     - uses: coverallsapp/github-action@v1.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         path-to-lcov: ./artifacts/coverage/lcov.info
     - name: Build
-      run: yarn build
+      run: pnpm build
