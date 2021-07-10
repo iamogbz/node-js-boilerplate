@@ -76,7 +76,7 @@
         }
     },
     "lint-staged": {
-        "*.{js,ts}": [
+        "*.(j|t)s{,x}": [
             "pnpm run lint",
             "pnpm test -- --bail --findRelatedTests"
         ]
