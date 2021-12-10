@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: renovatebot/github-action@v30.1.2
+      - uses: renovatebot/github-action@v30.2.1
         with:
           configurationFile: renovate.json
           token: ${{ secrets.GH_TOKEN }}
