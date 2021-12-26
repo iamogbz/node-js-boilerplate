@@ -82,9 +82,9 @@
         ]
     },
     "devDependencies": {
-        "@commitlint/cli": "^15.0.0",
+        "@commitlint/cli": "^16.0.0",
         "@commitlint/config-conventional": "^16.0.0",
-        "@commitlint/travis-cli": "^15.0.0",
+        "@commitlint/travis-cli": "^16.0.0",
         "@types/jest": "^27.0.0",
         "@types/node": "^16.0.0",
         "@typescript-eslint/eslint-plugin": "^5.0.0",
