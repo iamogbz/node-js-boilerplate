@@ -11,7 +11,7 @@ These are mostly guidelines, not rules. Use your best judgment, and feel free to
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
-- [GNU Make and Bash](#make-and-bash)
+- [Node and TypeScript](#node-and-typescript)
 
 [How Can I Contribute?](#how-can-i-contribute)
 
@@ -37,16 +37,20 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
 ## What should I know before I get started?
 
-### Make and Bash
+### Node and TypeScript 
 
-- [Makefiles](https://www.gnu.org/software/make/manual/html_node/Introduction.html)
-- [Bourne Again Shell](https://www.gnu.org/software/bash/manual/html_node/index.html#Top)
+- [x] [Node](https://nodejs.org/en/download/package-manager/)
+- [x] [TypeScript](https://www.typescriptlang.org/docs)
 
 ## How Can I Contribute?
 
 ### Reporting Bugs
 
+[Create new bug report](https://github.com/<user>/<repo>/issues/new?assignees=&labels=&template=bug_report.md)
+
 ### Suggesting Enhancements
+
+[Create feature request](https://github.com/iamogbz/oh-my-scripts/issues/new?assignees=&labels=&template=feature_request.md)
 
 ### Your First Code Contribution
 
