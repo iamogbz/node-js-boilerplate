@@ -1,6 +1,6 @@
 {
     "name": "boilerplate",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "description": "NodeJS Boilerplate with precommit test and linting configured",
     "author": "iamogbz",
     "repository": {
