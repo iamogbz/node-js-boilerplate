@@ -13,7 +13,6 @@ jobs:
       with:
         fetch-depth: 0
         ref: boilerplate-ejection
-        token: ${{ secrets.GH_TOKEN }}
     - run: git config user.name "Project Owner"
     - run: git config user.email "owner@project.com"
     - run: git rebase origin/main
